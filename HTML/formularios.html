@@ -1,0 +1,215 @@
+<!--
+	Block content (Div)
+	 * method GET - Padrão
+	 * action
+-->
+
+
+
+<form action="" method="post" enctype="multipart/form-data">
+
+<!--
+<fieldset name="contato" form="form-teste">
+  		<legend>Preencha o formulálrio de contato</legend>
+</fieldset>
+
+Button
+<button type="button" name="" class="" id="">Enviar</button>
+</form>
+-->
+
+<!--
+	Label
+	 * Associar e identificar um ou mais tags de entradade dados
+	 * Ajuda na acessibilidade
+
+	 Atributos:
+	 - for
+	   * faz conexão com outros tipos de elementos do formulário
+
+
+<form action="" method="POST">
+<fieldset name="contato">
+  		<legend>Preencha o formulálrio de contato</legend>
+</fieldset>
+
+
+<label>
+	Nome:
+	<input type="text" id="nome">
+</label>
+
+<label for="age">Idade</label>
+<input type="number" id="age">
+
+
+   		<datalist>
+   		* Lista de valores com sugestões para algum elemento input
+   		* Usuário poderá selecionar um dos valores ou colocar novos valores 
+
+   	Lista de professores
+
+
+	<datalist id="prof-list">
+		<option>Luan</option>
+		<option>Jenifer</option>
+		<option>Regis</option>
+	</datalist>
+
+	<input type="text" list="prof-list">
+
+	-->
+
+	<!--
+       	<fieldset>
+			<legend>Trabalhando com Inputs</legend>
+
+			<input text>
+			<input 
+			type="text"
+			placeholder="Preencha o seu nome" 
+			size="60" 
+			minlength="8" 
+			maxlength="20" 
+			title="Preencha o dado"
+			reandonly
+			>    
+			<br>
+
+		    <Input number>
+
+		    <input 
+		    type="number"
+			size="50" 
+			minlength="6" 
+			maxlength="12" 
+			title="Preencha o dado"
+			>
+			<br>
+
+			<Input E-mail->
+			<input 
+		    type="email"
+			size="24"
+			title="Preencha o dado"
+			required
+			> 
+			<br>
+
+			<Input Senha>
+			<input 
+		    type="password"
+		    size="24"
+		    title="Sua senha precisa ser em hexadecimal"
+			pattern="[0-9a-fA-F]{4,8}" 
+			inputmode="numeric"
+			>
+
+			<Input hidden>
+			<input type="hidden" value="Eu estou escondido=)">
+
+			<Input collor->
+			<input type="color">
+
+			<input type="datetime-local">
+
+
+
+	
+			<label for="area">
+				Seu interesse maior é por qual área? 
+		    </label>
+
+		    <div>
+		    	<input type="checkbox" 
+		    	name="interesse" 
+		    	id="frontend" 
+		    	value="Front-End Luan Monteiro">
+		    	<label for="frontend">Front-End Luan Monteiro</label>F
+
+		    	<input type="checkbox" 
+		    	name="interesse" 
+		    	id="backend" 
+		    	value="Back-End Regis Santos"> 
+		    	<label for="backend">Back-End Regis Santos</label>
+
+
+		    	<input type="checkbox" 
+		    	name="interesse" 
+		    	id="designuiux" 
+		    	value="Design UI/UX Jenifer Vieira"> 
+		    	<label for="designuiux">Design UI/UX Jenifer Vieira</label>
+		    </div>
+
+		    <br>
+		    <br>
+		    <br>	
+
+		    <Radio Button--
+
+		    <h3>Deseja receber notificação da be.academy?</h3>
+		    <label for="yes">Sim</label>
+		    <input type="radio" id="yes" checked name="notification" value="yes">
+
+		    <label for="no">Não</label>
+		    <input type="radio" id="no" chacked name="notification" value="no">
+
+
+
+			<br>
+			<button type="submit">Enviar</button>
+        </fieldset>
+
+        --Elemento de formulário capaz de criar uma lista de opções a serem selecionadas, DropDown
+-->
+
+			<label for="teacher">Professores:</label>
+			<select name="select-teacher" id="teacher" multiple size="2"> <!--seleciona mais de um item-->
+				<option value="">Selecione um professor</option>
+				<option value="">Luan Santos</option>
+				<option value="">Moacir Garcia</option>
+				<option value="">Jenifer Vieira</option>
+				<option value="">Regis Eduardo</option>
+			</select>
+
+<!--			
+        --select-teacher = ['Luan Santos', 'Moacir Garcia']
+
+
+        -- Input Search
+           * Elemento usado para pesquisar conteúdo
+-->
+			<br>
+			<br>
+
+           <input 
+           type="search"
+           name=""
+           title=""
+           placeholder="Busque o usuário pelo id"
+           size="24"
+           pattern="[0-9]{0,3}" 
+           title="Busque por id de até 3 dígitos" 
+           >
+
+           Manipulando arquivos com o file 
+           * O usuário poderá fazer um upload de 1 ou mais arquivos de acordo com a extensão
+
+           <input 
+           type="file" 
+           value="" 
+           accept="image/*"
+           multiple 
+           name=""
+           id="" 
+           >
+           
+
+
+
+			<br>
+			<button type="submit">Enviar</button>
+
+		</fieldset>
+</form>
+
