@@ -1,0 +1,213 @@
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="./assets/style.css">
+
+</head>	
+</html>
+
+	
+    <style>
+	    h1 {
+		  background: blue;
+	    }
+	    #super-title{
+	    	background: red;
+	    }
+	    h1{
+	    	background: green;
+	    }
+	    .my-title-2 {
+	    	background: yellow;
+	    }
+	    strong{
+	    	color: blueviolet;
+	    }
+	    .my-text{
+	    	color: aquamarine;
+	    }
+    </style>
+     -->
+
+
+<!--
+<body>
+	<h1 id="super-title">Testando especificidade</h1>
+	<p class="my-text">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsam sunt aspernatur voluptatum optio labore voluptatibus accusamus aliquam? Eveniet cupiditate maiores dolore saepe adipisci, doloremque dolorem! Maiores amet dolorem voluptas?
+	</p>
+	<h1 class="my-title-2">Testando especificidade</h1>
+    <p class="my-text-2">
+    	Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br/> Aliquam, minima minus ipsum, est explicabo consequatur necessitatibus laboriosam praesentium, <br/> dignissimos <strong>repudiandae </strong><br/>fugit numquam nihil perferendis asperiores pariatur architecto dolores harum eligendi?
+    </p>
+
+</body>
+
+
+----------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/style.css">
+
+	<style>
+
+		body ul li{
+			background: green;
+			color: red;
+		}
+
+		body section div ul li {
+			background: blue;
+			color: yellow;
+		}
+
+		h1 ~ p {
+			color: green;
+		}
+		-->
+	<!--
+	</style>
+
+ 	<style>
+ 		body > ul {
+ 			background-color: red;
+ 		}
+
+
+
+ 	</style>
+</head>
+
+
+<body>
+
+	<div>
+		<p>Teste</p>
+	</div>
+	<ul>
+		<div>
+		<li>Testando combinadores</li>
+	</ul>
+	<div>Outro formato</div>
+	<section>
+		<div>
+			<ul>
+				<li>Outro marcador</li>
+			<ul>
+		</div>
+	</section>
+
+
+<h1>Titulo</h1>
+<p>Parágrafo</p>
+<button>Enviar</button>
+
+<p>Outro parágrafo</p>
+
+</body>
+</html>
+
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/style.css">
+
+	<style>
+	
+		body ul {
+			background: green;
+			color: red;
+		}
+
+		body section div ul li {
+			background: blue;
+			color: yellow;
+		}
+		*/
+
+		body > ul {
+			background-color: red;
+
+		}
+		section > ul {
+			background-color: blue;
+
+		}
+
+	</style>
+
+
+</head>
+<body>
+	<div>
+
+	<ul>
+		<li>Testando combinadores</li>
+	</ul>
+	<div>Outro formato</div>
+	<section>
+		<div>
+			<ul>
+				<li>Outro marcador</li>
+			</ul>
+		</div>
+
+	</section>
+
+
+</body>
+</html>
+
+-->
+
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/style.css">
+
+
+
+	<style>
+		h1 ~ p {
+			color:  green;
+
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+	
+	<h1>Título</h1>
+	<p>Mais um parágrafo</p>
+
+	<button>Enviar</button>
+
+	<p>Outro parágrafo</p>
+	<p>Outro parágrafo</p>
+	<p>Outro parágrafo</p>
+	<p>Outro parágrafo</p>
+
+</body>
+</html>

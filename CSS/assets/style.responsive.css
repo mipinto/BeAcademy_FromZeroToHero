@@ -1,0 +1,38 @@
+.container {
+	width: 400px;
+	height: auto;
+	padding: 1rem;
+	background-color: blue;
+	margin-bottom: 0.5rem;
+}
+
+.text-box h2 {
+	color: white ;
+	font-size: 1.5rem;
+}
+
+.text-box p {
+	color:  wheat;
+}
+
+/*Breakpoint 575px*/
+@media (min-widht: 575px) {
+	.container {
+		background:  red;
+		margim-bottom: 1rem;
+	}
+}
+
+/*Breakpoint 768px*/
+@media (min-widht:  768px) {
+	.container {
+		widht: 40.6rem
+		background: green;
+		margin-bottom: 1.12rem;
+	}
+
+	.text-box h2,
+	.textbox p {
+		color: aqua;
+	}
+}
