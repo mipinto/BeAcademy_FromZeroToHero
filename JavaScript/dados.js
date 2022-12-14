@@ -28,3 +28,19 @@ console.log(stringInclude.endsWith("😁"))
 
 let wordToArray = "Quem tá gostando diz Hey!!!"
 console.log(Array.from(wordToArray))
+
+const animals = ["cobra", "sapo", "jacare", "tatu"]
+console.log(animals)
+
+console.log(animals.push("gato"))
+console.log(animals)
+
+console.log(animals.unshift("porco"))
+console.log(animals)
+
+console.log(animals.pop())
+console.log(animals)
+
+console.log(animals.shift())
+console.log(animals)
+
